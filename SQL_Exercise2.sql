@@ -2,8 +2,8 @@
 SELECT * FROM bestbuy.products;
 
 -- find all products that cost $1400
-	SELECT * FROM bestbuy.products
-    WHERE products.Price = 1400;
+SELECT * FROM bestbuy.products
+WHERE products.Price = 1400;
 
 -- find all products that cost $11.99 or $13.99
 SELECT * FROM bestbuy.products as p
