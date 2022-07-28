@@ -18,8 +18,8 @@ SELECT * FROM bestbuy.products as p
 ORDER BY p.Price DESC;
 
 -- find all employees who don't have a middle initial
-SELECT * FROM bestbuy.products as p
-WHERE MiddleInitial IS NULL;
+SELECT * FROM bestbuy.employees as p
+WHERE p.MiddleInitial IS NULL;
 
 -- find distinct product prices
 SELECT DISTINCT bestbuy.products.price
